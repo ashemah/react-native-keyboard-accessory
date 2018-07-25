@@ -16,7 +16,6 @@ import AccessoryArrowButton from './components/AccessoryArrowButton';
 class KeyboardAccessoryNavigation extends Component {
   handleDoneButton() {
     this.props.onDone && this.props.onDone();
-    Keyboard.dismiss();
   }
 
   render() {
